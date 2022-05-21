@@ -35,6 +35,10 @@ installdeps () {
 
 if [[ "$1" == "build" ]]; then
     build
+elif [[ "$1" == "install" ]]; then
+    install
+elif [[ "$1" == "remove" ]]; then
+    remove
 elif [[ "$1" == "installdeps" ]]; then
     installdeps
 fi
