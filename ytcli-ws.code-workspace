@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "Youtube CLI"
+		}
+	],
+	"launch": {
+		"configurations": [
+			{
+				"name": "Python: Current File",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"console": "integratedTerminal",
+				"justMyCode": true,
+				
+			},
+			{
+				"name": "Python: Run Youtube-CLI",
+				"type": "python",
+				"request": "launch",
+				"cwd": "${workspaceFolder}/src",
+				"program": "./main.py",
+				"console": "integratedTerminal",
+				"justMyCode": true,
+				
+			}
+		],
+		"compounds": []
+	}
+}
