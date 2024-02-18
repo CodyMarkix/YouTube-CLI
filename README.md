@@ -31,7 +31,7 @@ For this program you will need the following:
 Simply run this command...
 
 ```bash
-wget https://github.com/CodyMarkix/Youtube-CLI/releases/download/v1.0.0/ytcli-x86-64 -O $HOME/.local/bin/ytcli
+wget https://github.com/CodyMarkix/Youtube-CLI/releases/download/latest/ytcli-x86-64 -O $HOME/.local/bin/ytcli
 ```
 
 ...and it'll be installed.
